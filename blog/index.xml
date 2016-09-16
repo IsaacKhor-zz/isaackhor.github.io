@@ -7,8 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>2016 Isaac Khor.</copyright>
-    <lastBuildDate>Mon, 05 Sep 2016 19:48:16 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2016 17:20:46 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting Up a Custom Domain</title>
+      <link>http://localhost:1313/blog/2016/setting-up-a-custom-domain/</link>
+      <pubDate>Fri, 16 Sep 2016 17:20:46 +0800</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/setting-up-a-custom-domain/</guid>
+      <description>
+
+&lt;p&gt;Instead of doing my Calculus homework, I decided that it would be great idea to try setting up a custom domain for this website. Now that it is done, instead of doing said calculus homework, I&amp;rsquo;m going to write about setting up the custom domain! (Yes, calculus homework is really boring.)&lt;/p&gt;
+
+&lt;h3 id=&#34;buying-a-domain&#34;&gt;Buying a Domain&lt;/h3&gt;
+
+&lt;p&gt;Buying a domain was pretty easy. I am using &lt;a href=&#34;https://hover.com/&#34;&gt;Hover&lt;/a&gt; as my registrar, which was highly recommended by my friends. The domain costs $14/year. Yes, there are cheaper prices, but I think the extra dollar or two per year is worth the nice UI and support.&lt;/p&gt;
+
+&lt;p&gt;After creating A records pointing to Github&amp;rsquo;s servers, and creating a CNAME file in Github, the DNS settings propagated to Google&amp;rsquo;s DNS servers within a minute. Visiting &lt;a href=&#34;https://isaackhor.com/&#34;&gt;isaackhor.com&lt;/a&gt; navigated to the right location. However, I noticed something :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/setting-up-a-custom-domain-nossl.png&#34; alt=&#34;Where&#39;s the SSL?&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No HTTPS? Ok, I should be able to set a certificate somewhere&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-https&#34;&gt;Setting up HTTPS&lt;/h3&gt;
+
+&lt;p&gt;Google told me that I can either have encryption, or a custom domain, but not both. However, Google also presented me with a workaround: use &lt;a href=&#34;https://cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt;. So, that&amp;rsquo;s exactly what I did. After configuring everything on CloudFlare, I spent the next 5 minutes doing this (what calculus homework? I don&amp;rsquo;t know what you&amp;rsquo;re talking about):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ dig isaackhor.com +nostats +nocomments +nocmd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By the way, if you have a custom, local DNS cache, you should disable it. It took me a few minutes to realise that this was happening:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;;; Query time: 8 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1)
+;; WHEN: Fri Sep 16 17:58:47 2016
+;; MSG SIZE  rcvd: 47
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After changing DNS to 8.8.8.8, finally:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ dig isaackhor.com
+
+; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.8.3-P1 &amp;lt;&amp;lt;&amp;gt;&amp;gt; isaackhor.com
+;; global options: +cmd
+;; Got answer:
+;; -&amp;gt;&amp;gt;HEADER&amp;lt;&amp;lt;- opcode: QUERY, status: NOERROR, id: 49246
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;isaackhor.com.			IN	A
+
+;; ANSWER SECTION:
+isaackhor.com.		299	IN	A	104.27.147.99
+isaackhor.com.		299	IN	A	104.27.146.99
+
+;; Query time: 38 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Sep 16 18:06:08 2016
+;; MSG SIZE  rcvd: 63
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Test isaackhor.com in the browser, everything works correctly. Final step: force all traffic to HTTPS:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/setting-up-a-custom-domain-cloudflare-pagerule.png&#34; alt=&#34;CloudFlare Page Rules&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Test in Chrome, yep, HTTPS works:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/setting-up-a-custom-domain-ssl.png&#34; alt=&#34;HTTPS is working&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, to get back to that calculus homework &amp;hellip; wait &amp;hellip; I can have custom email, don&amp;rsquo;t I? Why don&amp;rsquo;t I set it up right now?&lt;/p&gt;
+
+&lt;p&gt;To be continued &amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Initial Post</title>
