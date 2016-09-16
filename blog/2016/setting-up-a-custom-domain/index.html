@@ -47,7 +47,7 @@
 
 <p>After creating A records pointing to Github&rsquo;s servers, and creating a CNAME file in Github, the DNS settings propagated to Google&rsquo;s DNS servers within a minute. Visiting <a href="https://isaackhor.com/">isaackhor.com</a> navigated to the right location. However, I noticed something :</p>
 
-<p><img src="img/setting-up-a-custom-domain-nossl.png" alt="Where's the SSL?" /></p>
+<p><img src="/img/setting-up-a-custom-domain-nossl.png" alt="Where's the SSL?" /></p>
 
 <p>No HTTPS? Ok, I should be able to set a certificate somewhere&hellip;</p>
 
@@ -91,11 +91,11 @@ isaackhor.com.		299	IN	A	104.27.146.99
 
 <p>Test isaackhor.com in the browser, everything works correctly. Final step: force all traffic to HTTPS:</p>
 
-<p><img src="img/setting-up-a-custom-domain-cloudflare-pagerule.png" alt="CloudFlare Page Rules" /></p>
+<p><img src="/img/setting-up-a-custom-domain-cloudflare-pagerule.png" alt="CloudFlare Page Rules" /></p>
 
 <p>Test in Chrome, yep, HTTPS works:</p>
 
-<p><img src="img/setting-up-a-custom-domain-ssl.png" alt="HTTPS is working" /></p>
+<p><img src="/img/setting-up-a-custom-domain-ssl.png" alt="HTTPS is working" /></p>
 
 <p>Now, to get back to that calculus homework &hellip; wait &hellip; I can have custom email, don&rsquo;t I? Why don&rsquo;t I set it up right now?</p>
 

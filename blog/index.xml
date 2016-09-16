@@ -26,7 +26,7 @@
 
 &lt;p&gt;After creating A records pointing to Github&amp;rsquo;s servers, and creating a CNAME file in Github, the DNS settings propagated to Google&amp;rsquo;s DNS servers within a minute. Visiting &lt;a href=&#34;https://isaackhor.com/&#34;&gt;isaackhor.com&lt;/a&gt; navigated to the right location. However, I noticed something :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;img/setting-up-a-custom-domain-nossl.png&#34; alt=&#34;Where&#39;s the SSL?&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/setting-up-a-custom-domain-nossl.png&#34; alt=&#34;Where&#39;s the SSL?&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;No HTTPS? Ok, I should be able to set a certificate somewhere&amp;hellip;&lt;/p&gt;
 
@@ -70,11 +70,11 @@ isaackhor.com.		299	IN	A	104.27.146.99
 
 &lt;p&gt;Test isaackhor.com in the browser, everything works correctly. Final step: force all traffic to HTTPS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;img/setting-up-a-custom-domain-cloudflare-pagerule.png&#34; alt=&#34;CloudFlare Page Rules&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/setting-up-a-custom-domain-cloudflare-pagerule.png&#34; alt=&#34;CloudFlare Page Rules&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Test in Chrome, yep, HTTPS works:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;img/setting-up-a-custom-domain-ssl.png&#34; alt=&#34;HTTPS is working&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/setting-up-a-custom-domain-ssl.png&#34; alt=&#34;HTTPS is working&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, to get back to that calculus homework &amp;hellip; wait &amp;hellip; I can have custom email, don&amp;rsquo;t I? Why don&amp;rsquo;t I set it up right now?&lt;/p&gt;
 
