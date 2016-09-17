@@ -184,7 +184,19 @@ isaackhor.com.		299	IN	A	104.27.146.99
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;There is only one way to contact me: email, if you have my email address (Sorry, but I will publish my email address when I figure out not let my email addresses fall prey to spammers). I do not guarantee a reply.&lt;/p&gt;
+      <description>&lt;p&gt;If you don&amp;rsquo;t know me personally or know somebody that does, the easiest way of contacting me is via email (It&amp;rsquo;s an image because I&amp;rsquo;m pretty sure spambot crawlers don&amp;rsquo;t do OCR):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/contact.png&#34; alt=&#34;Email address&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the response time that I strive to achieve given the method of communication:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Phone number: one hour&lt;/li&gt;
+&lt;li&gt;People already in my contacts: one day&lt;/li&gt;
+&lt;li&gt;Social media &amp;amp; the email shown above: 3 days&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Add a day if the reply takes a long time to compose.&lt;/p&gt;
 </description>
     </item>
     
