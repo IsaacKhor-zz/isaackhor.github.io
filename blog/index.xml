@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Isaac Khor&#39;s Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://isaackhor.com/blog/</link>
     <description>Recent content in Blogs on Isaac Khor&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>2016 Isaac Khor.</copyright>
     <lastBuildDate>Sat, 17 Sep 2016 16:30:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isaackhor.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2016 ISKL Forensics Competition - Original Oratory Entry</title>
-      <link>http://localhost:1313/blog/2016/2016-iskl-forensics-competition---original-oratory-entry/</link>
+      <link>https://isaackhor.com/blog/2016/2016-iskl-forensics-competition---original-oratory-entry/</link>
       <pubDate>Sat, 17 Sep 2016 16:30:24 +0800</pubDate>
       
-      <guid>http://localhost:1313/blog/2016/2016-iskl-forensics-competition---original-oratory-entry/</guid>
+      <guid>https://isaackhor.com/blog/2016/2016-iskl-forensics-competition---original-oratory-entry/</guid>
       <description>
 
 &lt;p&gt;My Original Oratory entry for the 2016 ISKL forensics competition, published here in its full glory. Yes, I know, it is really, really, really bad, but I&amp;rsquo;m going to put it up here anyways for the sake of letting other people learn from my mistakes.&lt;/p&gt;
@@ -48,10 +48,10 @@
     
     <item>
       <title>Setting Up a Custom Domain</title>
-      <link>http://localhost:1313/blog/2016/setting-up-a-custom-domain/</link>
+      <link>https://isaackhor.com/blog/2016/setting-up-a-custom-domain/</link>
       <pubDate>Fri, 16 Sep 2016 17:20:46 +0800</pubDate>
       
-      <guid>http://localhost:1313/blog/2016/setting-up-a-custom-domain/</guid>
+      <guid>https://isaackhor.com/blog/2016/setting-up-a-custom-domain/</guid>
       <description>
 
 &lt;p&gt;Instead of doing my Calculus homework, I decided that it would be great idea to try setting up a custom domain for this website. Now that it is done, instead of doing said calculus homework, I&amp;rsquo;m going to write about setting up the custom domain! (Yes, calculus homework is really boring.)&lt;/p&gt;
@@ -62,7 +62,7 @@
 
 &lt;p&gt;After creating A records pointing to Github&amp;rsquo;s servers, and creating a CNAME file in Github, the DNS settings propagated to Google&amp;rsquo;s DNS servers within a minute. Visiting &lt;a href=&#34;https://isaackhor.com/&#34;&gt;isaackhor.com&lt;/a&gt; navigated to the right location. However, I noticed something :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/setting-up-a-custom-domain-nossl.png&#34; alt=&#34;Where&#39;s the SSL?&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://isaackhor.com/img/setting-up-a-custom-domain-nossl.png&#34; alt=&#34;Where&#39;s the SSL?&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;No HTTPS? Ok, I should be able to set a certificate somewhere&amp;hellip;&lt;/p&gt;
 
@@ -106,11 +106,11 @@ isaackhor.com.		299	IN	A	104.27.146.99
 
 &lt;p&gt;Test isaackhor.com in the browser, everything works correctly. Final step: force all traffic to HTTPS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/setting-up-a-custom-domain-cloudflare-pagerule.png&#34; alt=&#34;CloudFlare Page Rules&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://isaackhor.com/img/setting-up-a-custom-domain-cloudflare-pagerule.png&#34; alt=&#34;CloudFlare Page Rules&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Test in Chrome, yep, HTTPS works:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/setting-up-a-custom-domain-ssl.png&#34; alt=&#34;HTTPS is working&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://isaackhor.com/img/setting-up-a-custom-domain-ssl.png&#34; alt=&#34;HTTPS is working&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, to get back to that calculus homework &amp;hellip; wait &amp;hellip; I can have custom email, don&amp;rsquo;t I? Why don&amp;rsquo;t I set it up right now?&lt;/p&gt;
 
@@ -120,10 +120,10 @@ isaackhor.com.		299	IN	A	104.27.146.99
     
     <item>
       <title>Initial Post</title>
-      <link>http://localhost:1313/blog/2016/initial-post/</link>
+      <link>https://isaackhor.com/blog/2016/initial-post/</link>
       <pubDate>Mon, 05 Sep 2016 19:48:16 +0800</pubDate>
       
-      <guid>http://localhost:1313/blog/2016/initial-post/</guid>
+      <guid>https://isaackhor.com/blog/2016/initial-post/</guid>
       <description>&lt;p&gt;After endless hours of fiddling around with CSS and Hugo templates, this website finally looks half-decent! Let&amp;rsquo;s just all pretend that the thing that used to be here never existed, and carry on with our day. I will write more about setting this place up later, I need to make sure deployment to Github Pages works correctly first.&lt;/p&gt;
 </description>
     </item>

@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://isaackhor.com/</loc>
     <lastmod>2016-09-17T16:30:24+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/2016/2016-iskl-forensics-competition---original-oratory-entry/</loc>
+    <loc>https://isaackhor.com/blog/2016/2016-iskl-forensics-competition---original-oratory-entry/</loc>
     <lastmod>2016-09-17T16:30:24+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/2016/setting-up-a-custom-domain/</loc>
+    <loc>https://isaackhor.com/blog/2016/setting-up-a-custom-domain/</loc>
     <lastmod>2016-09-16T17:20:46+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/2016/initial-post/</loc>
+    <loc>https://isaackhor.com/blog/2016/initial-post/</loc>
     <lastmod>2016-09-05T19:48:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://isaackhor.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://isaackhor.com/contact/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/license/</loc>
+    <loc>https://isaackhor.com/license/</loc>
   </url>
   
 </urlset>
