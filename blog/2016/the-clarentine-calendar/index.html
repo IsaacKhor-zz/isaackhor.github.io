@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Hugo 0.17" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Isaac Khor&#39;s Blog">
+  <title>The Clarentine Calendar</title>
+</head>
+
+<body>
+<div class="container">
+<header role="banner">
+	<h1 class="site-title">Isaac Khor&#39;s Blog</h1>
+	<div class="navbar">
+		<p>
+			<a href="/" target="_self">Home</a>
+			<span class="header-divider">&middot;</span>
+			<a href="/blog/" target="_self">Blog</a>
+			<span class="header-divider">&middot;</span>
+			<a href="/about/" target="_self">About</a>
+			<span class="header-divider">&middot;</span>
+			<a href="/contact/" target="_self">Contact</a>
+		</p>
+	</div>
+</header>
+
+<main>
+	<div class="article">
+		<div class="article-header">
+			<h1 class="article-title"><a href="/blog/2016/the-clarentine-calendar/">The Clarentine Calendar</a></h1>
+			<span class="article-meta"><time itemprop="datePublished" datetime="2016-12-19">19 Dec 2016</time></span>
+		</div>
+		<article class="article-text">
+		
+
+<p>I just designed a new calendar! The first draft has been copied here; for the most recent version, check it out on <a href="https://github.com/IsaacKhor/project-clarentine/">Github</a>.</p>
+
+<h1 id="the-clarentine-calendar">The Clarentine Calendar</h1>
+
+<p>This is the formal specification for the Clarentine calendar. This document is a <em>work is progress</em>, it will change as feedback is incorporated.</p>
+
+<p>All pronunciations shall follow the rules of Standard Clarentine English Pronunciation (will be published later; it&rsquo;s still a work in progress).</p>
+
+<p><strong>NOTE: all numbers are written in base 10d/12e, or base-twelve</strong></p>
+
+<h3 id="day">Day</h3>
+
+<p>The fundamental unit of time in the Clarentine Calendar is the <em>day</em>. A day is defined they same way as in the UTC, including leap seconds.</p>
+
+<h3 id="divisions-of-time">Divisions of Time</h3>
+
+<p>There are two <em>types</em> of time periods: a <strong>division</strong>, and a <strong>subdivision</strong>. Divisions are converted to each other at a 1:10 ratio.</p>
+
+<h4 id="divisions">Divisions</h4>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Plural</th>
+<th>Postfix form</th>
+<th>Composed of</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Day</td>
+<td>Days</td>
+<td>dies</td>
+<td>UTC day</td>
+</tr>
+
+<tr>
+<td>Month</td>
+<td>Months</td>
+<td>menses</td>
+<td>10 days</td>
+</tr>
+
+<tr>
+<td>Year</td>
+<td>Years</td>
+<td>anni</td>
+<td>10 months</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="subdivisions">Subdivisions</h4>
+
+<table>
+<thead>
+<tr>
+<th>Prefix</th>
+<th>Number of divisions</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>tri-</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>quad-</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>hex-</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="examples">Examples</h4>
+
+<p><strong>Days</strong></p>
+
+<ol>
+<li>3 days = 1 tridie</li>
+<li>4 days = 1 quadie</li>
+<li>6 days = 1 hexdie</li>
+<li>10 days = 1 month</li>
+</ol>
+
+<p><strong>Month</strong></p>
+
+<ol>
+<li>3 months = 1 trimenses</li>
+<li>4 months = 1 quadmenses</li>
+<li>6 months = 1 hexmenses</li>
+<li>10 months = 1 year</li>
+</ol>
+
+<h3 id="epoch">Epoch</h3>
+
+<p>This calendar uses the &ldquo;J2000&rdquo; epoch. The date 0-00 11:58:55.816 is defined as J2000, or 1 January 2000 11:58:55.816 UTC, or 1 January 2000 11:59:27.816 TAI (UTC and TAI times in decimal).</p>
+
+<h3 id="notation">Notation</h3>
+
+<p>Date format:</p>
+
+<p>&ldquo;y*-md&rdquo;, where &ldquo;y*&rdquo; is the year to as many digits as needed, &ldquo;m&rdquo; the month, and &ldquo;d&rdquo; the day.</p>
+
+<p>All numbers are filled into the template from right-to-left, from the least significant to the most significant. All missing numbers are assumed to be the current division of time. The hyphen between the year and the month/day can be left out.</p>
+
+<p>For example:</p>
+
+<ol>
+<li>42 : Current year, month 4, day 2</li>
+<li>3-56 : Current 10-year, year 3, month 5, day 6</li>
+<li>1234-78 : Current 10000-year, year 1234, month 7, day 8</li>
+<li>9ab: Current 10-year (and all above), year 9, month A, day B</li>
+</ol>
+
+		</article>
+	</div>
+</main>
+
+<footer>
+  <div class="hr"></div>
+  <nav class="footer-links">
+   
+   
+	 <a href="https://github.com/IsaacKhor" target="_blank">GitHub</a><span class="header-divider">&middot;</span>
+  	<a href="/blog/index.xml" target="_self">RSS</a>
+    <span class="header-divider">&middot;</span>
+  	<a href="/license/" target="_self">License</a>
+  </nav>
+  <div class="copyright"> Copyright &copy; 2016 Isaac Khor.
+</footer>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-83435334-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

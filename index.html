@@ -34,6 +34,140 @@
 
 	<div class="article">
 		<div class="article-header">
+			<h1 class="article-title"><a href="/blog/2016/the-clarentine-calendar/">The Clarentine Calendar</a></h1>
+			<span class="article-meta"><time datetime="2016-12-19">19 December 2016</time></span>
+		</div>
+		<div class="article-text">
+		
+
+<p>I just designed a new calendar! The first draft has been copied here; for the most recent version, check it out on <a href="https://github.com/IsaacKhor/project-clarentine/">Github</a>.</p>
+
+<h1 id="the-clarentine-calendar">The Clarentine Calendar</h1>
+
+<p>This is the formal specification for the Clarentine calendar. This document is a <em>work is progress</em>, it will change as feedback is incorporated.</p>
+
+<p>All pronunciations shall follow the rules of Standard Clarentine English Pronunciation (will be published later; it&rsquo;s still a work in progress).</p>
+
+<p><strong>NOTE: all numbers are written in base 10d/12e, or base-twelve</strong></p>
+
+<h3 id="day">Day</h3>
+
+<p>The fundamental unit of time in the Clarentine Calendar is the <em>day</em>. A day is defined they same way as in the UTC, including leap seconds.</p>
+
+<h3 id="divisions-of-time">Divisions of Time</h3>
+
+<p>There are two <em>types</em> of time periods: a <strong>division</strong>, and a <strong>subdivision</strong>. Divisions are converted to each other at a 1:10 ratio.</p>
+
+<h4 id="divisions">Divisions</h4>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Plural</th>
+<th>Postfix form</th>
+<th>Composed of</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Day</td>
+<td>Days</td>
+<td>dies</td>
+<td>UTC day</td>
+</tr>
+
+<tr>
+<td>Month</td>
+<td>Months</td>
+<td>menses</td>
+<td>10 days</td>
+</tr>
+
+<tr>
+<td>Year</td>
+<td>Years</td>
+<td>anni</td>
+<td>10 months</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="subdivisions">Subdivisions</h4>
+
+<table>
+<thead>
+<tr>
+<th>Prefix</th>
+<th>Number of divisions</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>tri-</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>quad-</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>hex-</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="examples">Examples</h4>
+
+<p><strong>Days</strong></p>
+
+<ol>
+<li>3 days = 1 tridie</li>
+<li>4 days = 1 quadie</li>
+<li>6 days = 1 hexdie</li>
+<li>10 days = 1 month</li>
+</ol>
+
+<p><strong>Month</strong></p>
+
+<ol>
+<li>3 months = 1 trimenses</li>
+<li>4 months = 1 quadmenses</li>
+<li>6 months = 1 hexmenses</li>
+<li>10 months = 1 year</li>
+</ol>
+
+<h3 id="epoch">Epoch</h3>
+
+<p>This calendar uses the &ldquo;J2000&rdquo; epoch. The date 0-00 11:58:55.816 is defined as J2000, or 1 January 2000 11:58:55.816 UTC, or 1 January 2000 11:59:27.816 TAI (UTC and TAI times in decimal).</p>
+
+<h3 id="notation">Notation</h3>
+
+<p>Date format:</p>
+
+<p>&ldquo;y*-md&rdquo;, where &ldquo;y*&rdquo; is the year to as many digits as needed, &ldquo;m&rdquo; the month, and &ldquo;d&rdquo; the day.</p>
+
+<p>All numbers are filled into the template from right-to-left, from the least significant to the most significant. All missing numbers are assumed to be the current division of time. The hyphen between the year and the month/day can be left out.</p>
+
+<p>For example:</p>
+
+<ol>
+<li>42 : Current year, month 4, day 2</li>
+<li>3-56 : Current 10-year, year 3, month 5, day 6</li>
+<li>1234-78 : Current 10000-year, year 1234, month 7, day 8</li>
+<li>9ab: Current 10-year (and all above), year 9, month A, day B</li>
+</ol>
+
+		</div>
+	</div>
+
+	<div class="article">
+		<div class="article-header">
 			<h1 class="article-title"><a href="/blog/2016/the-stories-that-we-tell-ourselves---meditations-2/">The Stories That We Tell Ourselves - Meditations 2</a></h1>
 			<span class="article-meta"><time datetime="2016-12-19">19 December 2016</time></span>
 		</div>

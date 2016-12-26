@@ -11,6 +11,139 @@
     <atom:link href="https://isaackhor.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Clarentine Calendar</title>
+      <link>https://isaackhor.com/blog/2016/the-clarentine-calendar/</link>
+      <pubDate>Mon, 19 Dec 2016 18:58:00 +0800</pubDate>
+      
+      <guid>https://isaackhor.com/blog/2016/the-clarentine-calendar/</guid>
+      <description>
+
+&lt;p&gt;I just designed a new calendar! The first draft has been copied here; for the most recent version, check it out on &lt;a href=&#34;https://github.com/IsaacKhor/project-clarentine/&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-clarentine-calendar&#34;&gt;The Clarentine Calendar&lt;/h1&gt;
+
+&lt;p&gt;This is the formal specification for the Clarentine calendar. This document is a &lt;em&gt;work is progress&lt;/em&gt;, it will change as feedback is incorporated.&lt;/p&gt;
+
+&lt;p&gt;All pronunciations shall follow the rules of Standard Clarentine English Pronunciation (will be published later; it&amp;rsquo;s still a work in progress).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE: all numbers are written in base 10d/12e, or base-twelve&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;day&#34;&gt;Day&lt;/h3&gt;
+
+&lt;p&gt;The fundamental unit of time in the Clarentine Calendar is the &lt;em&gt;day&lt;/em&gt;. A day is defined they same way as in the UTC, including leap seconds.&lt;/p&gt;
+
+&lt;h3 id=&#34;divisions-of-time&#34;&gt;Divisions of Time&lt;/h3&gt;
+
+&lt;p&gt;There are two &lt;em&gt;types&lt;/em&gt; of time periods: a &lt;strong&gt;division&lt;/strong&gt;, and a &lt;strong&gt;subdivision&lt;/strong&gt;. Divisions are converted to each other at a 1:10 ratio.&lt;/p&gt;
+
+&lt;h4 id=&#34;divisions&#34;&gt;Divisions&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Plural&lt;/th&gt;
+&lt;th&gt;Postfix form&lt;/th&gt;
+&lt;th&gt;Composed of&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Day&lt;/td&gt;
+&lt;td&gt;Days&lt;/td&gt;
+&lt;td&gt;dies&lt;/td&gt;
+&lt;td&gt;UTC day&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Month&lt;/td&gt;
+&lt;td&gt;Months&lt;/td&gt;
+&lt;td&gt;menses&lt;/td&gt;
+&lt;td&gt;10 days&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Year&lt;/td&gt;
+&lt;td&gt;Years&lt;/td&gt;
+&lt;td&gt;anni&lt;/td&gt;
+&lt;td&gt;10 months&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;subdivisions&#34;&gt;Subdivisions&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Prefix&lt;/th&gt;
+&lt;th&gt;Number of divisions&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;tri-&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;quad-&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;hex-&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;examples&#34;&gt;Examples&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Days&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;3 days = 1 tridie&lt;/li&gt;
+&lt;li&gt;4 days = 1 quadie&lt;/li&gt;
+&lt;li&gt;6 days = 1 hexdie&lt;/li&gt;
+&lt;li&gt;10 days = 1 month&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Month&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;3 months = 1 trimenses&lt;/li&gt;
+&lt;li&gt;4 months = 1 quadmenses&lt;/li&gt;
+&lt;li&gt;6 months = 1 hexmenses&lt;/li&gt;
+&lt;li&gt;10 months = 1 year&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;epoch&#34;&gt;Epoch&lt;/h3&gt;
+
+&lt;p&gt;This calendar uses the &amp;ldquo;J2000&amp;rdquo; epoch. The date 0-00 11:58:55.816 is defined as J2000, or 1 January 2000 11:58:55.816 UTC, or 1 January 2000 11:59:27.816 TAI (UTC and TAI times in decimal).&lt;/p&gt;
+
+&lt;h3 id=&#34;notation&#34;&gt;Notation&lt;/h3&gt;
+
+&lt;p&gt;Date format:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;y*-md&amp;rdquo;, where &amp;ldquo;y*&amp;rdquo; is the year to as many digits as needed, &amp;ldquo;m&amp;rdquo; the month, and &amp;ldquo;d&amp;rdquo; the day.&lt;/p&gt;
+
+&lt;p&gt;All numbers are filled into the template from right-to-left, from the least significant to the most significant. All missing numbers are assumed to be the current division of time. The hyphen between the year and the month/day can be left out.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;42 : Current year, month 4, day 2&lt;/li&gt;
+&lt;li&gt;3-56 : Current 10-year, year 3, month 5, day 6&lt;/li&gt;
+&lt;li&gt;1234-78 : Current 10000-year, year 1234, month 7, day 8&lt;/li&gt;
+&lt;li&gt;9ab: Current 10-year (and all above), year 9, month A, day B&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Stories That We Tell Ourselves - Meditations 2</title>
       <link>https://isaackhor.com/blog/2016/the-stories-that-we-tell-ourselves---meditations-2/</link>
       <pubDate>Mon, 19 Dec 2016 18:58:00 +0800</pubDate>
