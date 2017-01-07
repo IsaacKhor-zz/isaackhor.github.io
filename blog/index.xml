@@ -7,8 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>2016 Isaac Khor.</copyright>
-    <lastBuildDate>Mon, 26 Dec 2016 21:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jan 2017 20:22:00 +0800</lastBuildDate>
     <atom:link href="https://isaackhor.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Firefox 50 Extensions</title>
+      <link>https://isaackhor.com/blog/2017/firefox-50-extensions/</link>
+      <pubDate>Sat, 07 Jan 2017 20:22:00 +0800</pubDate>
+      
+      <guid>https://isaackhor.com/blog/2017/firefox-50-extensions/</guid>
+      <description>
+
+&lt;p&gt;About four months after my switch to Firefox, my extensions situation seems to have finally stabilised. Thus, it&amp;rsquo;s time to take a comprehensive inventory of my entire browser system, for the sake of documentation in case I need to set up this system again.&lt;/p&gt;
+
+&lt;p&gt;I hope to still be using this in a year, but with Firefox extensions, you will never know.&lt;/p&gt;
+
+&lt;h2 id=&#34;ui-enhancements&#34;&gt;UI Enhancements&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Tab Centre:&lt;/strong&gt; Tabs laid out vertically makes much more sense that the default horizontal configuration. The main reason is that I don&amp;rsquo;t like to have wide browser windows, since most webpages utilise &lt;em&gt;vertical&lt;/em&gt; rather than &lt;em&gt;horizontal&lt;/em&gt; space, and having tabs laid out vertically makes it easier for me to find everything anyways.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reddit Enhancement Suite:&lt;/strong&gt; Self-explanatory. Browsing reddit without RES drives me insane.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1Password:&lt;/strong&gt; While not strictly a purely UI addon, I will include it here anyways. My username and password system is beyond the scope of this article; all you need to know is that everything is managed through 1Password (along with some scripts I hacked together).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DevEdition theme enabler:&lt;/strong&gt; The default theme looks ugly. What more can I say?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;uBlock Origin:&lt;/strong&gt; Yes, I run an adblocker, and yes, it is not purely for privacy reasons. I used to use AdBlock, but as many others have discovered, uBlock is the best when it comes to CPU and memory usage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ghostery:&lt;/strong&gt; I am actually experimenting with removing Ghostery, since the things it blocks should already be included in uBlock, but it stays for now.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Destructing Cookies:&lt;/strong&gt; I used to maintain a cookie whitelist, but I have found that to be &lt;em&gt;way&lt;/em&gt; to much work; setting certain websites to have their cookies kept with SDC is a system that is just as practical and requires almost no work.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NoScript:&lt;/strong&gt; JavaScript-blocking is a must. I don&amp;rsquo;t trust most websites enough to run their code on my machine, and most pages work just fine without JS anyways. I am pretty strict with enabling JavaScript, and even with that most websites still work just fine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decentraleyes:&lt;/strong&gt; This is a local CDN cache that requires very little maintenance, and is here for no reason other than it provides &lt;em&gt;some&lt;/em&gt; protection against fingerprinting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Random Agent Spoofer:&lt;/strong&gt; This extension, as it name suggests, spoofs the UserAgent that your browser sends; it is a great protection against browser fingerprinting. It also includes some options for countering other forms of fingerprinting, like disabling JS canvas support, some of which are enabled.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTTPS Everywhere:&lt;/strong&gt; Despite my misgivings about the EFF, this remains a must-have extension, since I don&amp;rsquo;t like MiTM attacks, and neither should you.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;utilities&#34;&gt;Utilities&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Dorando keyconfig:&lt;/strong&gt; This extension is for binding shortcuts to Firefox, since it uses a custom keyboard event-handling system that is opaque and extremely hard to configure. I have just recently started playing with Hammerspoon, and I am currently experimenting with removing this extension and migrating my shortcuts over to Hammerspoon.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test pilot:&lt;/strong&gt; Dependency for Tab Center; I can&amp;rsquo;t remove it even if I wanted to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add-on Compatibility Reporter:&lt;/strong&gt; Temporary while I puzzle over the migration to e10s.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>The Clarentine Calendar</title>
