@@ -10,6 +10,38 @@
     <atom:link href="https://isaackhor.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Killing Project Duodecimal</title>
+      <link>https://isaackhor.com/blog/2017/killing-project-duodecimal/</link>
+      <pubDate>Sat, 21 Jan 2017 14:57:00 +0800</pubDate>
+      
+      <guid>https://isaackhor.com/blog/2017/killing-project-duodecimal/</guid>
+      <description>&lt;p&gt;Since the Clarentine calendar was based on divisions of twelve, I thought it would be a good idea to notate all numbers in duodecimal. This was part of a larger internal effort in my life, aptly called Project Duodecimal, to convert all numbers I interact with to duodecimal.&lt;/p&gt;
+
+&lt;p&gt;However, after much consideration, I have come to the conclusion that due to the sheer momentum of decimal number notation, changing all numbers I interact with to duodecimal will be using far too much effort relative to the possible gains. Most of the world runs on decimal, uses divisions of ten, and is not compatible with a duodecimal system.&lt;/p&gt;
+
+&lt;p&gt;This has led me to abandon Project Duodecimal; despite being one of my oldest projects, its priority has always been one of the lowest, so not much progress has been made. There are &lt;em&gt;some&lt;/em&gt; specifications for a new duodecimal system, along with notation and names similar to metric prefixes, but due to their underdevelopment, I will be not be releasing them.&lt;/p&gt;
+
+&lt;p&gt;However, most of the advantages of using twelve as the base of my calendar are still preserved even if I switch the &lt;em&gt;notation&lt;/em&gt; over to decimal. So, divisions in the Clarentine calendar are still made of twelve units, but the notation for dates will change slightly to accommodate the new decimal notation. I am still working on how to best fit these numbers into a single consistent date format; the next version of the specification should be published soon with this notation overhaul along with some changes to names.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Killing Project Duodecimal</title>
+      <link>https://isaackhor.com/blog/2017/killing-project-duodecimal/</link>
+      <pubDate>Sat, 21 Jan 2017 14:57:00 +0800</pubDate>
+      
+      <guid>https://isaackhor.com/blog/2017/killing-project-duodecimal/</guid>
+      <description>&lt;p&gt;Since the Clarentine calendar was based on divisions of twelve, I thought it would be a good idea to notate all numbers in duodecimal. This was part of a larger internal effort in my life, aptly called Project Duodecimal, to convert all numbers I interact with to duodecimal.&lt;/p&gt;
+
+&lt;p&gt;However, after much consideration, I have come to the conclusion that due to the sheer momentum of decimal number notation, changing all numbers I interact with to duodecimal will be using far too much effort relative to the possible gains. Most of the world runs on decimal, uses divisions of ten, and is not compatible with a duodecimal system.&lt;/p&gt;
+
+&lt;p&gt;This has led me to abandon Project Duodecimal; despite being one of my oldest projects, its priority has always been one of the lowest, so not much progress has been made. There are &lt;em&gt;some&lt;/em&gt; specifications for a new duodecimal system, along with notation and names similar to metric prefixes, but due to their underdevelopment, I will be not be releasing them.&lt;/p&gt;
+
+&lt;p&gt;However, most of the advantages of using twelve as the base of my calendar are still preserved even if I switch the &lt;em&gt;notation&lt;/em&gt; over to decimal. So, divisions in the Clarentine calendar are still made of twelve units, but the notation for dates will change slightly to accommodate the new decimal notation. I am still working on how to best fit these numbers into a single consistent date format; the next version of the specification should be published soon with this notation overhaul along with some changes to names.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Clarentine Calendar Explained</title>
       <link>https://isaackhor.com/blog/2017/the-clarentine-calendar-explained/</link>
       <pubDate>Mon, 09 Jan 2017 18:30:00 +0800</pubDate>
@@ -376,16 +408,6 @@
 &lt;p&gt;What then? The clock fiddling advocate tells us to replace all clocks with digital clocks that have wireless chips in them to connect to the internet to update their time. I am sure that you can find some flaws in this line of reasoning, like &amp;ndash; how do you tell your clock your wifi password? You can’t expect a tiny computer to run on battery power for a whole year. So, who gets the power? Your phone or clock? I can go on forever about the problems, but I only have so much time. Unless they add an hour in the middle of my speech.&lt;/p&gt;
 
 &lt;p&gt;To review, daylight saving time saves almost no energy, causes sleep deprivation, causes more suicides, makes planning international meetings an absolute joy, terrorises the twenty-four hour day, and trashes the non-internet-savvy clock. This is why we should get rid of it, to make timezones normal and less confusing again. Let us restore the former glory of timezones as they were before that dreadful day in 1916. Thank you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Initial Post</title>
-      <link>https://isaackhor.com/blog/2016/initial-post/</link>
-      <pubDate>Mon, 05 Sep 2016 19:48:16 +0800</pubDate>
-      
-      <guid>https://isaackhor.com/blog/2016/initial-post/</guid>
-      <description>&lt;p&gt;After endless hours of fiddling around with CSS and Hugo templates, this website finally looks half-decent! Let&amp;rsquo;s just all pretend that the thing that used to be here never existed, and carry on with our day. I will write more about setting this place up later, I need to make sure deployment to Github Pages works correctly first.&lt;/p&gt;
 </description>
     </item>
     

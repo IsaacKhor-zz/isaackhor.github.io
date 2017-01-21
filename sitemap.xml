@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://isaackhor.com/</loc>
-    <lastmod>2017-01-09T18:30:00+08:00</lastmod>
+    <loc>https://isaackhor.com/blog/2017/killing-project-duodecimal/</loc>
+    <lastmod>2017-01-21T14:57:00+08:00</lastmod>
   </url>
   
   <url>
@@ -52,7 +52,19 @@
   </url>
   
   <url>
+    <loc>https://isaackhor.com/tags/</loc>
+    <lastmod>2017-01-21T14:57:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://isaackhor.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://isaackhor.com/blog/</loc>
+    <lastmod>2017-01-21T14:57:00+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -60,7 +72,18 @@
   </url>
   
   <url>
+    <loc>https://isaackhor.com/</loc>
+    <lastmod>2017-01-21T14:57:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://isaackhor.com/license/</loc>
+  </url>
+  
+  <url>
+    <loc>https://isaackhor.com/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
