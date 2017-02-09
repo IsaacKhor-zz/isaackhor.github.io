@@ -7,8 +7,96 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>2016 Isaac Khor.</copyright>
-    <lastBuildDate>Sat, 21 Jan 2017 14:57:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Feb 2017 17:20:00 +0800</lastBuildDate>
     <atom:link href="https://isaackhor.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Response to &#34;Source of Cell - An Argument for Intelligent Design&#34;</title>
+      <link>https://isaackhor.com/blog/2017/a-response-to-source-of-cell---an-argument-for-intelligent-design/</link>
+      <pubDate>Fri, 10 Feb 2017 17:20:00 +0800</pubDate>
+      
+      <guid>https://isaackhor.com/blog/2017/a-response-to-source-of-cell---an-argument-for-intelligent-design/</guid>
+      <description>
+
+&lt;p&gt;Hi, Kimberly, I know that the video was released&amp;hellip; um&amp;hellip; 4 months ago, but I just got around to writing up my response. Sorry.&lt;/p&gt;
+
+&lt;p&gt;I am going to go through the video in order and try to respond to each point as they come up.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Before it [ID] is dismissed as something silly &amp;hellip; it needs a fair trial&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I completely agree. Nothing much more to say.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where did the first cell come from? &amp;hellip; If anything was found that could create spontaneous life without influence from other life, the theory of evolution could potentially become the simplest explanation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If biologists &lt;em&gt;actually&lt;/em&gt; believed in spontaneous life creation, I completely agree with you: this is absurd. There is no way that this is true; we know of no possible mechanism that would even &lt;em&gt;allow&lt;/em&gt; this to happen.&lt;/p&gt;
+
+&lt;p&gt;However, science has changed since the days of Darwin, and we now know, as you have pointed out, that cells are far more complicated than simple blobs of jelly. This also means that our theories of biogenesis has changed, to far better models that don&amp;rsquo;t require extraordinary amounts of wand-waving to happen.&lt;/p&gt;
+
+&lt;p&gt;I also don&amp;rsquo;t see the connection with evolution; evolution is a theory about biodiversity, it has nothing to do with the origin of life. An explanation would be greatly appreciated.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where did the first proteins come from? Most evolutionary biologists will laugh at this question and point to the Miller Urey experiment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This may have been true half a century ago, but is no longer true now. Our theories of abiogenesis have since moved on; it is still an unsettled question that has big questions everywhere, but we now know that requiring amino acids to form into proteins and then cells is not a good theory at all.&lt;/p&gt;
+
+&lt;p&gt;I again completely agree with your refutation of this theory, but so does everybody else, which is why nobody actually believes in it. (Note: I am not sure where you got your numbers from, but since this is not my field of expertise, I&amp;rsquo;m just going to take your word that they are correct)&lt;/p&gt;
+
+&lt;p&gt;The most popular (as far as I, occasional follower of the latest research and complete amateur, can tell) is the RNA World hypothesis, which involves, as the name suggests, a RNA world. Some believe that there are other precursors to RNA, but that&amp;rsquo;s diving into details that only biologists find interesting anyways.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you were betting on ID versus evolution at this point, its pretty clear where the money is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I still don&amp;rsquo;t see the connection to evolution; again, evolution is an explanation of the biodiversity of life, and one that is correct as far as we can tell. It does not attempt to explain biogenesis, and thus has no relation to the topic at hand. I think you are wrongly associating evolution with non-existent theories that are absurd on their face; evolution makes no such claims, and I haven&amp;rsquo;t come across a single living biologist that believes in any of the things you have refuted. Refutation of a straw-man is not a good refutation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You need proteins to make other proteins&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Again, nobody believes in a model of abiogenesis that involves proteins randomly forming. I agree completely with your refutation; it&amp;rsquo;s just that its a refutation of a non-existent belief.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where did the information in DNA come from? &amp;hellip; The DNA is not only complex but also significant is the absolute for those against ID&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I do not have expertise in information theory, but here is a quick review of Shannon and Kolmogorov information, which Myer and ID folks like to use (without actually understanding what they mean) in conjunction with some kind of &amp;ldquo;intuitive&amp;rdquo; model that I have always failed to recognise:&lt;/p&gt;
+
+&lt;p&gt;Shannon information is basically probability theory applied to information. Shannon information is &lt;em&gt;measured&lt;/em&gt; as the &lt;em&gt;reduction&lt;/em&gt; of uncertainty; it makes no sense without &lt;em&gt;a well defined underlying probability distribution&lt;/em&gt; (yes, this is oversimplified). Since this is the origin of life, nobody has any idea what this might even look like.&lt;/p&gt;
+
+&lt;p&gt;Kolmogorov information, on the other hand, has &lt;em&gt;nothing&lt;/em&gt; to do with probability. It is the measure of the amount of information in a string relative to some kind of computing model. To oversimplify things, it is measured by the shortest program with a certain input that can produce the desired output.&lt;/p&gt;
+
+&lt;p&gt;Both are fundamentally &lt;em&gt;mathematical&lt;/em&gt; definitions of information, and don&amp;rsquo;t care about &amp;ldquo;purpose&amp;rdquo; or &amp;ldquo;doing anything&amp;rdquo;. This is mathematics; just because somebody else is observing the system doesn&amp;rsquo;t mean the results change.&lt;/p&gt;
+
+&lt;p&gt;Your point doesn&amp;rsquo;t even make sense without a concrete definition of what we&amp;rsquo;re talking about; I would &lt;em&gt;love&lt;/em&gt; a mathematically grounded definition of &lt;em&gt;just what kind of information&lt;/em&gt; we&amp;rsquo;re talking about here, and how it supports ID claims. Without concrete definitions, there is no point in continuing the debate over this point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;But you can&amp;rsquo;t plop The Great Gatsby in front of me and expect me to believe that these words were typed up by a monkey on a typewriter that just happened to mash on the right buttons.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know what you are referring to, but my reading on ID literature makes me think that this is an argument against evolution because &amp;ldquo;oh, look at all the complexity!&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Dawkins addressed this perfectly in Chapter 3-4 of &lt;em&gt;The Blind Watchmaker&lt;/em&gt;: yes, if DNA cannot just pop into existence in its current form; the probabilities of that happening is so astoundingly low that it&amp;rsquo;s not even considering.&lt;/p&gt;
+
+&lt;p&gt;Again, no biologist believes that DNA just popped into existence. That&amp;rsquo;s not how evolution works. Biologist Stephen Materson explains it far better than I ever could, so I am just going to link you over to &lt;a href=&#34;https://sfmatheson.blogspot.my/2009/09/weasels-clouds-and-biomorphs-part-i.html&#34;&gt;part 1&lt;/a&gt;, &lt;a href=&#34;https://sfmatheson.blogspot.my/2009/12/weasels-clouds-and-biomorphs-part-ii.html&#34;&gt;2&lt;/a&gt;, and &lt;a href=&#34;https://sfmatheson.blogspot.my/2009/12/weasels-clouds-and-biomorphs-part-iii.html&#34;&gt;3&lt;/a&gt; of his take on evolution.&lt;/p&gt;
+
+&lt;p&gt;Moving on to the next point, panspermia is just as good of an intelligence under ID arguments. However, since ID doesn&amp;rsquo;t actually make any good &lt;em&gt;predictions&lt;/em&gt;, it is hard to verify its validity. Panspermia, on the other hand, &lt;em&gt;does&lt;/em&gt; make &lt;em&gt;some&lt;/em&gt; predictions, most of which is untestable. Thus, it remains as an unsupported hypothesis; it is a possible explanation, but probably not the best one.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Parts 1 and 2 were attacks against a straw-man that no biologist believes in; you yourself have articulated the reasons why.&lt;/p&gt;
+
+&lt;p&gt;The last part on &amp;ldquo;information&amp;rdquo; was not well-defined and had multiple different concepts packed together that really shouldn&amp;rsquo;t; I can&amp;rsquo;t accept or refute an argument if I don&amp;rsquo;t even know what the argument is about.&lt;/p&gt;
+
+&lt;p&gt;The part about evolution also makes no sense to me; we are talking about the origin of life, not biodiversity. Evolution explains the latter, and makes no comment on the earlier. I do not see why it was included in this video.&lt;/p&gt;
+
+&lt;p&gt;Overall, the video was well-made; I particularly liked the drawings (which were admittedly lacking in aesthetic quality), and the format was clear. It stands as a good presentation of classic ID, but suffers from all the same flaws as all the other ID arguments.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Killing Project Duodecimal</title>
